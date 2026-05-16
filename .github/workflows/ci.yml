@@ -16,15 +16,15 @@ jobs:
 
       - name: Check required SQL files exist
         run: |
-          test -f sql_01_raw_layer.sql
-          test -f sql_02_Normalized_layer.sql
-          test -f sql_03_Denormalized_layer.sql
+          test -f _01_raw_layer.sql
+          test -f _02_Normalized_layer.sql
+          test -f _03_Denormalized_layer.sql
 
       - name: Check SQL files are not empty
         run: |
-          test -s sql_01_raw_layer.sql
-          test -s sql_02_Normalized_layer.sql
-          test -s sql_03_Denormalized_layer.sql
+          test -s _01_raw_layer.sql
+          test -s _02_Normalized_layer.sql
+          test -s _03_Denormalized_layer.sql
 
       - name: List repository files
         run: |
