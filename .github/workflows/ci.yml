@@ -1,0 +1,31 @@
+name: CI - SQL Project Validation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-project:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check required SQL files exist
+        run: |
+          test -f sql_01_raw_layer.sql
+          test -f sql_02_Normalized_layer.sql
+          test -f sql_03_Denormalized_layer.sql
+
+      - name: Check SQL files are not empty
+        run: |
+          test -s sql_01_raw_layer.sql
+          test -s sql_02_Normalized_layer.sql
+          test -s sql_03_Denormalized_layer.sql
+
+      - name: List repository files
+        run: |
+          ls -lah
