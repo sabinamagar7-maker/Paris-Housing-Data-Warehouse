@@ -189,26 +189,6 @@ It includes:
 * KPI-ready aggregations
 * Time-based analytical structures
 
----
-
-# Power BI Reporting
-
-Interactive dashboards were developed in Power BI to analyze:
-
-* Housing prices
-* Transaction volumes
-* Demographic trends
-* Business activity
-* Urban development patterns
-* Geographic distribution
-
-The dashboards include:
-
-* KPI cards
-* Trend analysis
-* Geospatial visualizations
-* Comparative district analysis
-* Time-series reporting
 
 ---
 
