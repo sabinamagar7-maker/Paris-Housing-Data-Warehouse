@@ -14,18 +14,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: List repository files
+        run: |
+          find . -maxdepth 3 -type f
+
       - name: Check required SQL files exist
         run: |
-          test -f _01_raw_layer.sql
-          test -f _02_Normalized_layer.sql
-          test -f _03_Denormalized_layer.sql
+          test -f sql/_01_raw_layer.sql
+          test -f sql/_02_Normalized_layer.sql
+          test -f sql/_03_Denormalized_layer.sql
 
       - name: Check SQL files are not empty
         run: |
-          test -s _01_raw_layer.sql
-          test -s _02_Normalized_layer.sql
-          test -s _03_Denormalized_layer.sql
-
-      - name: List repository files
-        run: |
-          ls -lah
+          test -s sql/_01_raw_layer.sql
+          test -s sql/_02_Normalized_layer.sql
+          test -s sql/_03_Denormalized_layer.sql
