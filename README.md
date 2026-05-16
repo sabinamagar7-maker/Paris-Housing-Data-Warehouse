@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project presents the design and implementation of a multi-domain urban analytics data warehouse focused on the city of Paris. The project integrates datasets related to housing transactions, demographics, business activity, permits, and urban indicators to support analytical reporting and business intelligence.
+This project presents the design and implementation of a multi-domain urban analytics data warehouse focused on the city of Paris. The project integrates datasets related to apartment transactions, demographics, business activity, permits, and urban indicators to support analytical reporting and business intelligence.
 
 The solution follows a layered ELT architecture implemented in Snowflake, with transformations progressing from RAW ingestion to normalized data models and finally to denormalized BI-ready marts used for Power BI reporting.
 
