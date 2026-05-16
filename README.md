@@ -154,7 +154,7 @@ paris-housing-dwh/
 │   ├── _02_Normalized_layer.sql
 │   └── _03_Denormalized_layer.sql
 │
-├── images/
+├── Normalized_Data_model_diagram/
 │
 ├── .github/
 │   └── workflows/
