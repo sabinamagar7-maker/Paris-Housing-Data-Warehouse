@@ -33,11 +33,11 @@ The main objectives of this project were:
 | Category          | Tools / Technologies |
 | ----------------- | -------------------- |
 | Data Warehouse    | Snowflake            |
-| Data Processing   | SQL, Python          |
+| Data Processing   | SQL          |
 | Visualization     | Power BI             |
 | Version Control   | Git, GitHub          |
 | CI Workflow       | GitHub Actions       |
-| Data Preparation  | Python, Pandas       |
+| Data Preparation  | SQL, Snowflake       |
 | IDE / Development | VS Code              |
 
 ---
