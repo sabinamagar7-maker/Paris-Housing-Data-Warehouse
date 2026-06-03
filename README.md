@@ -1,4 +1,4 @@
-# Urban Analytics: A Multi‑Domain Data Warehouse for Paris
+# Paris Housing Data Warehouse (Paris Real Estate Pricing & Investment Analytics)
 
 ## Overview
 
